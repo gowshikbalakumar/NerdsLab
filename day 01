@@ -1,0 +1,294 @@
+# 🪟 Windows Operating System
+
+The **Windows Operating System** developed by Microsoft is one of the most widely used OS platforms. It provides a graphical interface, multitasking capabilities, hardware compatibility, and extensive tools for both everyday users and professionals.
+
+---
+
+## 📶 1. WiFi and Hotspot Connecting Methods
+
+https://support.microsoft.com/images/en-us/c25f0805-21af-4863-846d-d414961f94ef
+
+https://support.microsoft.com/images/en-us/d0319ef0-bc6d-4f1c-a8cf-8ccdeeeba9e6
+
+### Connecting to WiFi:
+
+- Click the **Network icon** in the taskbar
+- Select available network
+- Enter password → Connect
+
+### Using Command Prompt:
+
+```
+netsh wlan show profiles
+netsh wlan connectname="WiFi_Name"
+```
+
+### Creating a Hotspot:
+
+- Go to **Settings → Network & Internet → Mobile Hotspot**
+- Share internet via WiFi or Ethernet
+- Turn ON hotspot
+
+---
+
+## 📋 2. Copy and Clipboard
+
+https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/msft-windows-animation-showing-shortcut-clipboard-history?scl=1
+
+!https://www.digitaltrends.com/tachyon/2024/01/keyboard-shortcuts-for-selecting-text.jpg?resize=720%2C324
+
+!https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Screenshots_2022/windows-11-clipboard-history-active.png
+
+### Basic Shortcuts:
+
+- Copy: `Ctrl + C`
+- Paste: `Ctrl + V`
+- Cut: `Ctrl + X`
+
+### Clipboard History:
+
+- Press `Win + V`
+- Enable clipboard history
+- Access multiple copied items
+
+### Advanced:
+
+- Sync clipboard across devices using Microsoft account
+
+---
+
+## 🖥️ 3. Windows Server OS
+
+!https://cdn.ttgtmedia.com/rms/onlineImages/3_Server-Management-Dashboard.jpg
+
+!https://upload.wikimedia.org/wikipedia/en/3/38/Windows_Server_2022_screenshot.png
+
+!https://learn.microsoft.com/id-id/windows-server/identity/ad-ds/deploy/media/install-a-new-windows-server-2012-active-directory-forest--level-200-/adds_smi_selectserverroles.gif
+
+**Windows Server** is designed for enterprise environments.
+
+### Features:
+
+- Active Directory (User management)
+- File & Storage Services
+- Virtualization using Hyper-V
+- Remote Desktop Services
+
+### Versions:
+
+- Windows Server 2016
+- Windows Server 2019
+- Windows Server 2022
+
+---
+
+## 💻 4. Windows Commands
+
+!https://www.lifewire.com/thmb/dKv1O-eJztmSgQDWmto5OUEgclI%3D/1500x0/filters%3Ano_upscale%28%29%3Amax_bytes%28150000%29%3Astrip_icc%28%29/terminal-command-prompt-windows-11-5b5ff2747dbe46f985d98b2d60b3ddb2.png
+
+!https://www.meridianoutpost.com/resources/articles/command-line/images/ipconfig-highlighted.png
+
+!https://www.lifewire.com/thmb/uvHVIHgtjahVT9xiczRwTpr9w30%3D/1500x0/filters%3Ano_upscale%28%29%3Amax_bytes%28150000%29%3Astrip_icc%28%29/dir-help-command-5a858437959144ccb21041217879195f.png
+
+### Common Commands:
+
+```
+ipconfig# View IP details
+ping google.com# Check connectivity
+dir #List files
+cls #Clear screen
+tasklist #Show running processes
+copy #copy the files
+move #move the files
+mkdir #create the folder
+rmdir #remove the folder
+```
+
+### System Commands:
+
+```
+shutdown /s /t0
+sfc /scannow
+chkdsk
+```
+
+---
+
+## 💾 5. Windows Disk Management
+
+!https://learn.microsoft.com/en-us/windows-server/storage/disk-management/media/disk-management.png
+
+!https://cdn.diskinternals.com/media/en/products/partition-recovery/new-simple-volume-unall.png
+
+!https://www.easeus.com/images/en/screenshot/partition-manager/change-partition-size.jpg
+
+### Access:
+
+- Right-click Start → Disk Management
+
+### Features:
+
+- Create/Delete partitions
+- Format drives
+- Extend/Shrink volumes
+- Assign drive letters
+
+### Use Cases:
+
+- Installing OS
+- Managing storage
+- Fixing disk issues
+
+---
+
+## ⚡ 6. Windows PowerShell Automation
+
+!https://www.varonis.com/hubfs/Imported_Blog_Media/powershell_scripting_post_image_5.png?hsLang=en
+
+!https://images.ctfassets.net/xwxknivhjv1b/4OTX3iEtkSZwqs7XGJgOcr/ec3d21aa6524128b7194774a2c965afc/my_first_script_error.png
+
+!https://i.sstatic.net/HFuLm.jpg
+
+**PowerShell** is a powerful scripting tool.
+
+### Example Commands:
+
+```
+Get-Process
+Get-Service
+Set-ExecutionPolicyRemoteSigned
+```
+
+### Automation Example:
+
+```
+1..10 | ForEach-Object {mkdir"folder$_"}
+```
+
+### Uses:
+
+- Task automation
+- System administration
+- Bulk operations
+
+---
+
+## 🔄 7. Windows Update
+
+!https://www.lifewire.com/thmb/FwJYdz2QxQzclCADTK2j-y5gIxw%3D/1500x0/filters%3Ano_upscale%28%29%3Amax_bytes%28150000%29%3Astrip_icc%28%29/windows-update-advanced-options-windows-11-634adcd6a8b742849613b7803946af35.png
+
+!https://techsupport.pharmacy.purdue.edu/sites/default/files/inline-images/checkonlineforupdates.png
+
+https://learn-attachment.microsoft.com/api/attachments/b5c6ab75-39dd-408c-afbb-32d163b8c7df?platform=QnA
+
+### Access:
+
+- Settings → Windows Update
+
+### Features:
+
+- Security updates
+- Feature updates
+- Driver updates
+
+### Controls:
+
+- Pause updates
+- Schedule restart
+- View update history
+
+---
+
+## 🌐 8. Temporary Server using IIS + Public Hosting with Ngrok
+
+!https://i.sstatic.net/T0iM3.png
+
+!https://learn-attachment.microsoft.com/api/attachments/152310-problem.png?platform=QnA
+
+!https://www.minitool.com/images/uploads/2020/05/what-is-inetpub-folder-thumbnail.png
+
+4
+
+### 📌 What is IIS?
+
+**Internet Information Services (IIS)** is a web server built into Windows by Microsoft that allows you to host websites locally.
+
+---
+
+### 🖥️ Step 1: Enable IIS
+
+1. Open **Control Panel**
+2. Go to **Programs → Turn Windows features on or off**
+3. Enable:
+    - Internet Information Services
+    - Web Management Tools
+    - World Wide Web Services
+
+---
+
+### 📂 Step 2: Use Default Web Directory
+
+- Default path:
+    
+    ```
+    C:\inetpub\wwwroot
+    ```
+    
+- Place your files here:
+    - `index.html`
+    - `index.php` (if configured)
+
+👉 Example:
+
+```
+<h1>Hello from IIS Server 🚀</h1>
+```
+
+---
+
+### 🌍 Step 3: Access Local Server
+
+Open browser:
+
+```
+http://localhost
+```
+
+If IIS is working, your page will load.
+
+---
+
+### 🚀 Step 4: Make it Public using Ngrok
+
+Run in terminal:
+
+```
+ngrok http80
+```
+
+### 🔗 Output:
+
+- Public URL generated like:
+    
+    ```
+    https://abcd1234.ngrok.io
+    ```
+    
+- Anyone can access your local IIS server globally 🌍
+
+---
+
+### 🧠 Use Cases:
+
+- Hosting demo websites
+- Testing web apps
+- Sharing projects quickly
+- Local development server
+
+---
+
+### ⚠️ Notes:
+
+- Keep sensitive data out of `wwwroot`
+- Ngrok URLs are temporary (unless paid plan)
+- Ensure firewall allows port 80
